@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": "The Next Generation",
+        "frame": "goal",
+        "background": "minecraft:textures/block/chiseled_red_sandstone.png",
+        "description": "Hold the Dragon Egg",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_egg"
+                    }
+                ]
+            }
+        }
+    }
+}

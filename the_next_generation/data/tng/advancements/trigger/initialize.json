@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "tng:player/initialize"
+    }
+}

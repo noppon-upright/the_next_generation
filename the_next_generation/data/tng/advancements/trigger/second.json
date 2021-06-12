@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:location"
+        }
+    },
+    "rewards": {
+        "function": "tng:player/second"
+    }
+}

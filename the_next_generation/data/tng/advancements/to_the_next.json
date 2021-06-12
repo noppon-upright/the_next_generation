@@ -1,0 +1,25 @@
+{
+    "parent": "tng:loot",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": "to the Next...",
+        "frame": "task",
+        "description": "ドラゴンの卵を設置する  そして...",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dragon_egg"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tng_curse:enable"
+    }
+}
