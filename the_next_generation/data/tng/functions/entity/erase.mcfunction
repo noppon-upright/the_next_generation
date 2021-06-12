@@ -1,10 +1,7 @@
 # 実行者を消滅させる（ようにみえるだけ）
 
-# ドロップ防止のためルートテーブルを変更
-data modify entity @s DeathLootTable set value "tng:empty"
-
-# 死亡アニメーション再生防止
-tp @s ~ -255 ~
+# アニメーション再生、ドロップ防止のためエンティティデータを変更
+data merge entity @s {DeathLootTable:"tng:empty",DeathTime:19,Silent:1b,Glowing:0b,CustomNameVisible:0b,PersistenceRequired:0b}
 
 # kill
 kill @s
