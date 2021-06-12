@@ -1,7 +1,7 @@
 # アンインストール
 
 # ;;
-tellraw @a {"text":"the_next_generationをアンインストールします..."}
+tellraw @a {"text":"[TNG] the_next_generationをアンインストールします..."}
 
 
 # 変更があったmobの消去
@@ -35,4 +35,4 @@ execute at @a run playsound ui.toast.out voice @p ~ ~ ~ 1.0 1.0
 
 
 # ;;
-tellraw @a {"text":"ありがとうございました！"}
+tellraw @a {"text":"[TNG] ありがとうございました！"}

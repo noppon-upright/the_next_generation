@@ -8,7 +8,7 @@ scoreboard objectives add TNGWork1 dummy
 scoreboard objectives add TNGRandom dummy
 # プレイヤーのID
 scoreboard objectives add TNGPlayerID dummy
-# 敵性mob変化実行状態 待機0 実行1 待機中停止2 実行中停止3
+# Mob変化実行状態 待機0 実行1 待機中停止2 実行中停止3
 scoreboard objectives add TNGCurseEnable dummy
 # ゲーム離脱フラグ
 scoreboard objectives add TNGLeaveGame minecraft.custom:leave_game

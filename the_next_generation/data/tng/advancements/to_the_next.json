@@ -20,6 +20,6 @@
         }
     },
     "rewards": {
-        "function": "tng_curse:enable"
+        "function": "tng_curse:start"
     }
 }
