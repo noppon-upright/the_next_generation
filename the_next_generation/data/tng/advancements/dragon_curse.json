@@ -1,0 +1,19 @@
+{
+    "parent": "tng:to_the_next",
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "title": "龍の呪い",
+        "frame": "task",
+        "description": "龍の怨恨を体感する",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

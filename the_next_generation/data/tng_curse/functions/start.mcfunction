@@ -4,7 +4,7 @@
 scoreboard players add #TNGScore TNGCurseEnable 0
 
 # メッセージ
-execute unless score #TNGScore TNGCurseEnable matches 1.. run tellraw @a {"text":"[TNG] 不吉な悪寒が背筋を走る...","color":"dark_purple","italic":true}
+execute unless score #TNGScore TNGCurseEnable matches 1.. run tellraw @a [{"text":"[TNG] "},{"text":"不吉な悪寒が背筋を走る...","color":"dark_purple","italic":true}]
 
 # エフェクト
 execute unless score #TNGScore TNGCurseEnable matches 1.. run effect give @a blindness 2 0 true

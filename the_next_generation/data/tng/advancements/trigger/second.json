@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "a": {
+        "0": {
             "trigger": "minecraft:location"
         }
     },
